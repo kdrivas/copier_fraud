@@ -1,6 +1,6 @@
 # my_project
 
-A simple Python project
+A simple Python projectasda
 
 ## Installation
 
@@ -38,4 +38,4 @@ docker run my_project
 
 ## Author
 
-dante (your.email@example.com)
+Your (your.email@example.com)

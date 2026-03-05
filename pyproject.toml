@@ -5,17 +5,17 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "my_project"
 version = "0.1.0"
-description = "A simple Python project"
+description = "A simple Python projectasda"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 authors = [
-    { name = "dante", email = "your.email@example.com" }
+    { name = "Your", email = "your.email@example.com" }
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
 ]
 
 dependencies = []

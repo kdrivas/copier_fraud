@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Print one message
+        run: echo "one my_project"
       - name: Print another message
-        run: echo "hello my_project"
-
-      - name: Print second message
-        run: echo "hello my_project"
+        run: echo "another my_project"
