@@ -2,7 +2,9 @@ name: Hello my_project
 
 on:
   push:
-    branches: [main, dev, rt]
+    branches: [main, ref_br]
+  pull_request:
+    branches: [main, ref_br]
   workflow_dispatch:
 
 jobs:
