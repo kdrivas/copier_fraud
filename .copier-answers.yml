@@ -1,0 +1,8 @@
+# Changes here will be overwritten by Copier
+_commit: d6a4b3c
+_src_path: gh:kdrivas/copier_template_example
+author_email: your.email@example.com
+author_name: Your Name
+project_description: A simple Python project
+project_name: my_project
+python_version: '3.11'
