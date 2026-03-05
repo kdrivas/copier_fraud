@@ -2,15 +2,18 @@ name: Hello my_project
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main]
   pull_request:
-    branches: [ main, master ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
   hello:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Print hello message
+      - name: Print another message
+        run: echo "hello my_project"
+
+      - name: Print second message
         run: echo "hello my_project"
